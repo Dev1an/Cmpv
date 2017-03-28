@@ -1,5 +1,5 @@
 module Cmpv [system] {
-	header "/usr/local/include/mpv/client.h"
+	header "client.h"
 	link "mpv"
 	export *
 }
