@@ -1,6 +1,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "Cmpv",
-    pkgConfig: "mpv"
+	name: "Cmpv",
+	pkgConfig: "libmpv",
+	providers: [
+		.Brew("mpv")
+	]
 )
